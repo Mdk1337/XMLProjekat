@@ -36,7 +36,7 @@
             <mesec>6</mesec>
             <godina>1990</godina>
         </datumRodjenja>
-        <adresa tip="stalna">
+        <adresa tip="privremena">
             <ulica>Boxhagener</ulica>
             <broj>31</broj>
             <grad>Hamburg</grad>
