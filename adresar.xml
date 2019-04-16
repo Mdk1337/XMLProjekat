@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE adresar SYSTEM "adresar.dtd">
+<adresar xmlns="http://tempuri.org/XMLSchema.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="adresar.xsd">
+    <osoba id="a123">
+        <punoIme>
+            <ime>Stefan</ime>
+            <srednjeIme>Nebojsa</srednjeIme>
+            <prezime>Markovic</prezime>
+        </punoIme>
+        <datumRodjenja>
+            <dan>7</dan>
+            <mesec>12</mesec>
+            <godina>1997</godina>
+        </datumRodjenja>
+        <adresa tip="stalna">
+            <ulica>Popova Bara Nova 1</ulica>
+            <broj>12</broj>
+            <grad>Beograd</grad>
+            <drzava>Srbija</drzava>
+        </adresa>
+        <telefon broj="mobilni">061/255-949</telefon>
+        <email tip="sluzbeni">StefanMarkovic12.97@gmail.com</email>
+        <email tip="privatni">mare.serbia.mare.cs@gmail.com</email>
+        <email tip="privatni">stefanm1337@gmail.com</email>
+    </osoba>
+    
+    <osoba id="a124">
+        <punoIme>
+            <ime>Ivan</ime>
+            <prezime>Ivkovic</prezime>
+        </punoIme>
+        <datumRodjenja>
+            <dan>4</dan>
+            <mesec>6</mesec>
+            <godina>1990</godina>
+        </datumRodjenja>
+        <adresa tip="stalna">
+            <ulica>Boxhagener</ulica>
+            <broj>31</broj>
+            <grad>Hamburg</grad>
+            <drzava>Nemacka</drzava>
+        </adresa>
+        <telefon broj="mobilni">040/233-950</telefon>
+        <email tip="privatni">xt3aqq8bou@thrubay.com</email>
+        
+    </osoba>
+    
+    <osoba id="a125">
+        <punoIme>
+            <ime>Mirjana</ime>
+            <prezime>Jocic</prezime>
+            <prezime>Mojsilovic</prezime>
+        </punoIme>
+        <datumRodjenja>
+            <dan>29</dan>
+            <mesec>2</mesec>
+            <godina>1990</godina>
+        </datumRodjenja>
+        <adresa tip="stalna">
+            <ulica>Mihajla Pupina</ulica>
+            <broj>10</broj>
+            <grad>Beograd</grad>
+            <drzava>Srbija</drzava>
+        </adresa>
+        <telefon broj="fiksni">011/311-019</telefon>
+        <email tip="sluzbeni">oxykitawi@tafmail.com</email>
+    </osoba>
+    
+    <kompanija id="a222">
+        <naziv>Deploy</naziv>
+        <adresa tip="privremena">
+            <ulica>Terazije</ulica>
+            <broj>41</broj>
+            <grad>Beograd</grad>
+        </adresa>
+        <telefon broj="fiksni">011/334-461</telefon>
+        <email tip="sluzbeni">hello@deploy.com</email>
+        <email tip="privatni">ifilipovska@deploy.com</email>
+        <email tip="privatni">ifilipovska123@deploy.com</email>
+    </kompanija>
+    
+    <kompanija id="a224">
+        <naziv>AViSTO Eastern Europe</naziv>
+        <adresa tip="stalna">
+            <ulica>Omladinskih Brigada</ulica>
+            <broj>88a</broj>
+            <grad>Beograd</grad>
+        </adresa>
+        <telefon broj="fiksni">011/353-601</telefon>
+        <email tip="sluzbeni">software.job@avisto.com</email>
+    </kompanija>
+    
+    <kompanija id="a225">
+        <naziv>United Cloud</naziv>
+        <adresa tip="privremena">
+            <ulica>Bulevar Milutina Milankovica</ulica>
+            <broj>1z</broj>
+            <grad>Beograd</grad>
+            <drzava>Srbija</drzava>
+        </adresa>
+        <telefon broj="fiksni">011/402-828</telefon>
+        <email tip="sluzbeni">contact@united.com</email>
+    </kompanija>
+</adresar>
